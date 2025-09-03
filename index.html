@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIF — ˢᵃᶤᶠ ₉₁</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a href="#home" class="brand">SAIF</a>
+            <ul class="nav-links">
+                <li><a href="#about">نبذة</a></li>
+                <li><a href="#skills">المهارات</a></li>
+                <li><a href="#projects">المشاريع</a></li>
+                <li><a href="#contact">تواصل</a></li>
+            </ul>
+        </nav>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">✨⚡ ＳＡＩＦ 🐺 ⚡✨</h1>
+                <p class="hero-sub">💻 〝𝑬𝒍𝒆𝒗𝒂𝒕𝒊𝒏𝒈 𝒄𝒐𝒅𝒆 𝒊𝒏𝒕𝒐 𝒂𝒓𝒕〞 🚀 Programmer | Creator | Dream Chaser 🌌</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">شاهد أعمالي</a>
+                    <a href="#contact" class="btn btn-outline">تواصل معي</a>
+                    <a href="https://linktr.ee/povce" target="_blank" rel="noopener" class="btn btn-outline">روابطي</a>
+                </div>
+            </div>
+            <div class="hero-glow" aria-hidden="true"></div>
+        </section>
+    </header>
+
+    <main>
+        <section id="about" class="section reveal">
+            <div class="container">
+                <h2 class="section-title">نبذة عني</h2>
+                <p class="lead">
+                    أنا <strong>سـيـف</strong>، مبرمج شغوف بتحويل الأفكار إلى منتجات أنيقة وفعّالة. أحب بناء
+                    واجهات حديثة وتجارب استخدام مبهرة، مع اهتمام بالتفاصيل والأداء.
+                </p>
+                <ul class="quick-facts">
+                    <li>خبرة في تطوير الويب الواجهات والخلفيات</li>
+                    <li>بناء واجهات تفاعلية وتجارب مستخدم سلسة</li>
+                    <li>هوس بالجماليات والطابع الفخم في التصميم</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="section alt reveal">
+            <div class="container">
+                <h2 class="section-title">المهارات ولغات البرمجة</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Frontend</h3>
+                        <p>HTML • CSS (Tailwind/Sass) • JavaScript • React</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Backend</h3>
+                        <p>Node.js • Express • REST APIs</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Tools</h3>
+                        <p>Git • GitHub • Docker • CI/CD</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Other</h3>
+                        <p>Design Systems • Performance • Accessibility</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section reveal">
+            <div class="container">
+                <h2 class="section-title">المشاريع المميزة</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>لوحة تحكم راقية</h3>
+                        <p>تصميم نظام إدارة بواجهة داكنة فاخرة مع رسوم بيانية تفاعلية وتجربة سلسة.</p>
+                        <a class="link" href="#contact">اطلب عرضاً مشابهاً</a>
+                    </article>
+                    <article class="project-card">
+                        <h3>موقع شخصي أنيق</h3>
+                        <p>بناء موقع سيرة ذاتية سريع، مُحسّن لمحركات البحث، ومبني بعناية بصريّة.</p>
+                        <a class="link" href="#contact">لنصمّم نسختك</a>
+                    </article>
+                    <article class="project-card">
+                        <h3>متجر إلكتروني مصغّر</h3>
+                        <p>واجهة تفاعلـية لسلة المشتريات والدفع، مع مراعاة الأداء العالي.</p>
+                        <a class="link" href="#contact">تواصل للتفاصيل</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section alt reveal">
+            <div class="container">
+                <h2 class="section-title">تواصل معي</h2>
+                <form class="contact-form" action="#" onsubmit="return false;">
+                    <div class="form-row">
+                        <input type="text" placeholder="الاسم" aria-label="الاسم">
+                        <input type="email" placeholder="البريد الإلكتروني" aria-label="البريد الإلكتروني">
+                    </div>
+                    <textarea rows="5" placeholder="رسالتك" aria-label="رسالتك"></textarea>
+                    <button class="btn btn-primary" type="submit">إرسال</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <span>© <span id="year"></span> SAIF</span>
+            <span class="designer">المصمم⛓️: ˢᵃᶤᶠ ₉₁ · <a class="link" href="https://linktr.ee/povce" target="_blank" rel="noopener">Linktree</a></span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
